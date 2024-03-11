@@ -6,6 +6,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* INICIA BARRA DE NAVEGACION */
 .container-fluid{
     background-image: url(/img/lumber\ header.jpg);
@@ -47,6 +51,34 @@ body{
     background-attachment: fixed;
 }
 
+main{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    background-image: url(/img/jumbotronimg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 540px) {
+        h1{
+            font-size: 30px;
+        }
+        p{
+        font-size: 25px;
+        }
+    }
+}
+
 .somos{
     color: #fff;
     width: 90%;
@@ -80,6 +112,27 @@ h1{
     text-decoration: underline;
     margin-bottom: 20px;
 }
+
+/* Inicia mapa */
+.mapa {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    padding-top: 56.25%;
+}
+
+.mapa-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Fin mapa */
+
 
 /* INICIA FOOTER CON REDES */
 footer p{
