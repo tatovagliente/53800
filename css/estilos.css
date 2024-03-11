@@ -14,7 +14,7 @@ html{
 
 /* INICIA BARRA DE NAVEGACION */
 .container-fluid{
-    background-image: url(/img/lumber\ header.jpg);
+    background-image: url(../img/lumber\ header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ html{
 /* FIN BARRA NAVEGACION */
 
 body{
-    background-image: url(/img/wood\ fondo.jpg);
+    background-image: url(../img/wood\ fondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@ main{
 }
 
 .jumbotron {
-    background-image: url(/img/jumbotronimg.jpg);
+    background-image: url(../img/jumbotronimg.jpg);
     background-size: cover;
     background-position: center;
     color: blue;
@@ -81,7 +81,7 @@ main{
     }
 }
 
-.somos, .noso{
+.somos, .noso, .desprod{
     color: #fff;
     width: 90%;
     border: 5px solid rgb(119, 108, 104);
