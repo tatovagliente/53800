@@ -135,6 +135,33 @@ h1{
 }
 /* Fin mapa */
 
+/* INICIA PRODUCTOS */
+.row article{
+    padding: 20px;
+    border: 2px solid #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.row img{
+    width: 100%;
+}
+
+.row h3{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.row p{
+    margin-top: 15px;
+}
+
+.galeria article{
+    border: 5px solid #000;
+    }
+    /* FIN PRODUCTOS */
 
 /* INICIA FOOTER CON REDES */
 footer p{
